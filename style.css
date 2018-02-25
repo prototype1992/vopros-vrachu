@@ -1,0 +1,380 @@
+*{
+	padding:0; margin:0;
+}
+img{
+	border:none;
+}
+ul{
+	list-style:none;
+}
+.clr{
+	clear:both;
+}
+html{
+	background:#e9f0f4 url(images/body-bg.jpg) top repeat-x;
+}
+body{
+	background:url(images/footer-bg.jpg) bottom repeat-x;
+}
+.karkas{
+	margin:0 auto; max-width:1300px; min-width:980px; padding: 0 10px;
+}
+.head{
+	overflow:hidden;
+}
+	.logo{
+		float:left; margin: 35px 0 0 20px;
+	}
+	.slogan{
+		float:left; font:18px "Myriad Pro"; color:#366cb6; margin: 48px 0 0 40px;
+	}
+	.enterreg{
+		float:right; color:#427fbc; font:13px Tahoma; margin: 50px 0 0 0;
+	}
+		.enterreg a{
+			color:#427fbc;
+		}
+		.enterreg a:hover{
+			text-decoration:none;
+		}
+		a.reg{
+			color:#d31800; font-weight:bold;
+		}
+	.head-link{
+		float:right; font:11px Tahoma; color:#0052a4; margin:0 0 5px 0; line-height:1.2;
+	}
+		.head-link a{
+			color:#0052a4;
+		}
+		.head-link a:hover{
+			text-decoration:none;
+		}
+	.menu-main{
+		background:url(images/menu-bg.jpg) left top repeat-x;
+	}
+		.menu{
+			background:url(images/menu-left-bg.jpg) left top no-repeat;
+		}
+		.menu-in{
+			background:url(images/menu-right-bg.jpg) right top no-repeat; height:52px; padding: 0 10px;
+		}
+		.home{
+			float:left; margin: 15px 0 0 0;
+		}
+		.menu ul{
+			overflow:hidden; float:left; margin: 15px 0 0 10px;
+		}
+			.menu ul li{
+				float:left; font:15px Arial; color:#fff; margin: 0 25px 0 0;
+			}
+				.menu ul li a{
+					color:#fff; display:block; padding: 3px 20px;
+				}
+				.menu ul li a:hover{
+					text-decoration:none; color:#00468f;
+					text-align: center;
+					-webkit-border-radius: 8px;
+					-moz-border-radius: 8px;
+					border-radius: 8px;
+					background: #d9e0e2;
+					background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fcfdfe), to(#b9c6cb));
+					background: -webkit-linear-gradient(#fcfdfe, #b9c6cb);
+					background: -moz-linear-gradient(#fcfdfe, #b9c6cb);
+					background: -ms-linear-gradient(#fcfdfe, #b9c6cb);
+					background: -o-linear-gradient(#fcfdfe, #b9c6cb);
+					background: linear-gradient(#fcfdfe, #b9c6cb);
+					behavior: url(pie/PIE.htc);
+				}
+				
+		.statistic{
+			float:right; font:10px Tahoma; color:#fff; background:url(images/statistic.jpg) left center no-repeat; padding: 0 0 0 50px; margin: 10px 3% 0 0; line-height:1.2;
+		}
+		
+.content-main{
+	overflow:hidden; margin:30px 0 0 0;
+}
+	.left-bar{
+		float:left; width:180px; padding:20px 0 0 0;
+	}
+		.left-bar ul{
+			text-align:right; font:12px Arial;
+		}
+		.left-bar ul li{
+			padding:6px 20px;
+		}
+			.left-bar ul li a{
+				color:#437fbc;
+			}
+			.left-bar ul li a:hover{
+				text-decoration: none;
+			}
+		li.activ{
+			font:bold 13px Arial; color:#000;
+			border: 1px solid #dbe6ec;
+			-webkit-border-radius: 20px 0 0 20px;
+			-moz-border-radius:20px 0 0 20px;
+			border-radius: 20px 0 0 20px;
+			-webkit-box-shadow: #91afbe -1px 1px 2px;
+			-moz-box-shadow: #91afbe -1px 1px 2px;
+			box-shadow: #91afbe -1px 1px 2px;
+			background: #fff;
+			border-right:none;
+			position:relative;
+			left:1px;
+			behavior: url(pie/PIE.htc);
+		}
+			li.activ a{
+				font:bold 13px Arial; color:#000!important; text-decoration:none;
+			}
+	.content{
+		margin:0 3px 5px 180px;
+		border: 1px solid #dbe6ec;
+		padding:20px 0 20px 20px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		-webkit-box-shadow: #91afbe 1px 1px 3px;
+		-moz-box-shadow: #91afbe 1px 1px 3px;
+		box-shadow: #91afbe 1px 1px 3px;
+		background: #fff;
+		behavior: url(pie/PIE.htc);
+	}
+		.right-bar{
+			float:right; width:240px;
+		}
+			.right-bar h2{
+				font:20px Tahoma; color:#000; margin:0 0 0 20px;
+			}
+			.reiting{
+				margin:0 0 0 20px;
+			}
+				.reiting p{
+					font:10px Tahoma; color:#000; margin:0 0 10px 0;
+				}
+				.reiting p a{
+					font:11px Tahoma; color:#0053a5; margin:0 10px;
+				}
+				.reiting p a:hover{
+					text-decoration:none;
+				}
+				.reiting p span{
+					font:bold 11px Tahoma; color:#fefefe; background:#608ac5; border-radius:10px; padding:3px 10px;
+				}
+		.spec-main{
+			background:url(images/spec-2bg.jpg) right repeat-y;
+		}
+			.spec{
+				background:url(images/spec-bg.jpg) bottom repeat-x; padding:15px 0 15px 20px;
+			}
+			.spec a{
+				color:#0055a6;
+			}
+			.spec a:hover{
+				text-decoration:none;
+			}
+				.name-reit{
+					overflow:hidden; color:#3c7082; margin:0 0 5px 0;
+				}
+				.name-reit img{
+					float:left; margin:10px 0 0 0;
+				}
+				.name-reit p{
+					margin:0 0 0 42px; font:11px/1.2 Tahoma;
+				}
+				.lic{
+					float:left; font-size:10px; margin:10px 10px 0 5px;
+				}
+					.lic img{
+						float:left; margin:0 13px 0 0;
+					}
+				.other-reit{
+					background:url(images/other-reit.jpg) no-repeat center center; float:left; font:18px "Myriad Pro"; color:#437fbc; width:27px; padding:5px 0; text-align:center;
+				}
+				
+			.allspec{
+				font:12px Tahoma; text-align:center; margin:15px 0; 
+			}
+			.allspec img{
+				position:relative; top:7px; left:-5px;
+			}
+			.allspec a{
+				color:#437fbc;
+			}
+			.allspec a:hover{
+				text-decoration:none;
+			}
+	.content-in{
+		display:table;
+	}
+		.content-in p{
+			font:12px Arial; color:#324249;
+		}
+		.content-in a{
+			color:#437fbc;
+		}
+		.content-in a:hover{
+			text-decoration:none;
+		}
+		.content-in h1{
+			font:25px Arial; color:#1d3c45; float:left; margin:0 0 15px 0;
+		}
+		.rss{
+			float:left; margin:8px 0 0 15px;
+		}
+		.zquest{
+			float:right; background:url(images/zquest-bg.jpg) no-repeat; font:12px Tahoma!important; padding:4px 33px 5px 21px; line-height:1.2;
+		}
+		.zquest a{
+			color:#fff;
+		}
+	.search{
+		background:#c8e2eb; border-radius:10px; overflow:hidden; padding:10px; margin:25px 0  0 0; behavior: url(pie/PIE.htc);
+	}
+		.search input{
+			float:left;
+		}
+		.search span{
+			background:url(images/search-bg-big-r.jpg) no-repeat; width:12px; height:22px; float:left; margin:0 10px 0 0;
+		}
+		.txt-left{
+			background:url(images/search-bg-big-l.jpg) no-repeat; float:left; height:22px; width: 27%;
+		}
+			.txt-left input{
+				border:none; background:none; font:12px Arial; text-align:left; margin:3px 0 0 10px;
+			}
+		.search p{
+			float:left; font:10px Tahoma; margin: 2px 5px 0 0;
+		}
+		.sfrm-right{
+			float:right;
+		}
+		.txt-right{
+			background:url(images/search-bg-small.jpg) no-repeat; float:left; width:62px; height:20px; margin:0 10px 0 0;
+		}
+		.txt-right input{
+			border:none; background:none; font:12px Arial; width:45px; margin:3px 0 0 10px; text-align:center;
+		}
+	.serch-link{
+		font:11px Tahoma; overflow:hidden; margin:10px 5px 40px 15px;
+	}
+		.rsearch{
+			float:left;
+		}
+		.serch-link p{
+			float:right; overflow:hidden; color:#bababa;
+		}
+		
+	.quest-main{
+		margin:0 0 40px 0;
+	}
+		.quest-main h2{
+			font:19px "Trebuchet MS"; color:#324249; margin:0 0 0 90px; line-height:1;
+		}
+		.quest-main h2 a{
+			color:#324249;
+		}
+		.quest-main p{
+			text-align:justify; margin:0 0 10px 0;
+		}
+	.quest-name{
+		overflow:hidden; margin:0 0 7px 0;
+	}
+		.quest-name div{
+			float:left;
+		}
+		.qnumber{
+			font:11px Arial; color:#fff; background:url(images/qnum-bg.jpg) no-repeat; display:block; text-align:center; width:70px; line-height:1.2; padding:2px 0;
+		}
+		.qdate{
+			font:10px Tahoma; color:#7e8b90; display:block; text-align:center; width:70px; line-height:1.2; padding:2px 0;
+		}
+		p.autor{
+			font-style:italic; color:#7e8b90;
+		}
+		.questbot{
+			border:1px solid #d3d3d3; border-radius:10px; background:url(images/qbot-bg.jpg) right repeat-y; overflow:hidden; padding: 5px 15px; margin:25px 0 0 0;
+		}
+			.qbot-left{
+				background: url(images/metki.jpg) left center no-repeat; float:left; font-size:11px!important; padding:0 0 0 20px; margin:0!important;
+			}
+			.qbot-left a{
+				font-family:Tahoma; color:#838e98; margin:0 10px 0 0;
+			}
+			.qbot-right{
+				float:right; font-size:11px!important; margin:0!important; color:#7e8b90!important;
+			}
+			
+		.unsver-main{
+			border:1px solid #e3e3e3; border-radius:10px 10px 10px 10px; padding: 15px 10px 0 10px;
+		}
+			.unsver{
+				border-top:1px solid #cde2e7; margin:0 0 20px 0; padding:20px 0 0 0;
+			}
+			.unsver:first-child{
+				border-top:none; padding:0;
+			}
+			.unsver p{
+				color:#6f7a7f;
+			}
+			.unsver-name{
+				overflow:hidden; margin:0 0 7px 0;
+			}
+			.unsver-name div{
+				float:left;
+			}
+			.unsver-name h2{
+				font:11px Tahoma; color:#324249;
+			}
+				.unsver-name h2 a{
+					font-size:13px; color:#437fbc; font-weight:bold;
+				}
+				.unsver-name h2 img{
+					float:left; margin:0 7px 0 0;
+				}
+			.unuber{
+				font:11px Tahoma; color:#fff; background: url(images/unsver-bg.jpg) no-repeat; display:block; padding:1px 0 3px 0; text-align:center; width:75px; line-height:1.2;
+			}
+			.udate{
+				font:10px Tahoma; color:#7e8b90; display:block; padding:2px 0; text-align:center; width:75px; line-height:1.2;}
+				.unsver-bot{
+				}
+					.unsver-bot a{
+						font:11px Tahoma; color:#cc1101;
+					}
+					a.senk{
+						background:url(images/senk-bg.jpg) left center no-repeat; color:#0054a6; padding: 5px 15px 5px 30px; margin:0 30px 0 0;
+					}	
+					
+	.pager{
+		margin: 0 auto 40px auto; width: 385px;
+	}
+		.pager a.num{
+			background:#cdd7e3; border-radius:5px; font:bold 13px "Trebuchet MS"; color:#366cb6; padding:3px 10px 4px 10px; margin:0 5px;
+		}
+		.pager span{
+			background:#0967a2; border-radius:5px; font:bold 13px "Trebuchet MS"; color:#fff; padding:3px 10px 4px 10px; margin:0 5px;
+		}
+		.pager img{
+			position:relative; top:7px; margin:0 5px;
+		}
+.footer{
+	overflow:hidden; font:11px Tahoma; color:#324249; margin:60px 5px 0 0; padding:0 0 20px 0;
+}
+	.ftr-logo{
+		float:left; margin:5px 50px;
+	}
+	.footer p{
+		float:left;
+	}
+	.footer div{
+		float:right; text-align:right;
+	}
+	.footer div img{
+		margin:5px 0 0 5px;
+	}
+	.footer a{
+		color:#0054a6;
+	}
+	.footer a:hover{
+		text-decoration:none;
+	}
